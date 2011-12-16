@@ -1,10 +1,10 @@
-- @sitename = "Anna Knows"
+- @sitename = "JB"
 
 // MAIN NAVIGATION
-- @link1 = ["Home", "/home"]
-- @link2 = ["About", "/about"]
-- @link3 = ["Services", "/services"]
-- @link4 = ["Events", "/events"]
+- @link1 = ["Print", "/home"]
+- @link2 = ["Web", "/about"]
+- @link3 = ["Productions", "/services"]
+- @link4 = ["Logos", "/events"]
 - @link5 = ["Contact", "/contact"]
 - @link6 = ["Businesses", "/businesses"]
 
@@ -206,9 +206,6 @@
   %body{:class => @body_class}
     #header
       .center
-        #logo1
-          %a{:href => @link1[1]}
-            %img{:src => "/images/logo.png", :alt => ""+@sitename+" Logo"}
         %ul#topnav
           %li
             %a#one.topnav{:href => @link1[1]}
@@ -220,60 +217,23 @@
             %a#three.topnav{:href => @link3[1]}
               =@link3[0]
           %li
-            %a#six.topnav{:href => @link6[1]}
-              =@link6[0]
-          %li
             %a#four.topnav{:href => @link4[1]}
               =@link4[0]
           %li
             %a#five.topnav{:href => @link5[1]}
               =@link5[0]
 
-
+    
     .content
-      = yield
-    #footer
-      .center
-        .content
-          &nbsp;
-          .row
-            %p.logo-sm
-              %img{:src => "/images/logo-sm.png", :alt => @sitename+" Logo"}
-              %br
-              Anna Knows | Dedicated to connecting the consumer and business owner
-          .row
-            %p
-              =@linkA1[0]
-              =" | "
-              =@linkA2[0]
-              =" | "
-              %a{:href => @linkA3[1]}
-                =@linkA3[0]
-              =" | "
-              %a{:href => @linkA4[1]}
-                =@linkA4[0]
-              =" | "
-              %a{:href => @linkA5[1]}
-                =@linkA5[0]
-          .row
-            %p
-              %a{:href => @linkB1[1], :target => "_blank"} 
-                %img.icon{:src => "/images/facebook-color.png"}
-                =@linkB1[0]              
-              %a{:href => @linkB2[1], :target => "_blank"} 
-                %img.icon{:src => "/images/twitter-color.png"}
-                =@linkB2[0]
-              %a{:href => @linkB3[1], :target => "_blank"} 
-                %img.icon{:src => "/images/linkedin-color.png"}
-                =@linkB3[0]
-              
-                  
+      #logo
+        %img{:src => "/images/logo.jpg", :width => "238", :height => "281"}
+      #viewer
+        = yield
     .omg-bar
       .copyright
-        :markdown
-          Copyright &copy; 2011-#{Time.now.year} [#{@sitename}](#). All Rights Reserved.
-      .powered-by
-        :markdown
-          Powered by [Ovalle Media Group](http://ovallemg.com/)
-          
+        %p 
+          = "&copy; 2011 " + @sitename + ". All Rights Reserved. | "
+          %a{:href => "/legal"} legal
+          = " | "
+          %a{:href => "#"} disregard this link
           
