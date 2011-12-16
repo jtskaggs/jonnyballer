@@ -46,9 +46,9 @@
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -182,8 +182,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .opaque {
-  opacity: 0.92 !important;
-  filter: alpha(opacity=92) !important;
+  opacity: 0.75 !important;
+  filter: alpha(opacity=75) !important;
 }
 
 .contact-form {
@@ -257,9 +257,9 @@ i {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -373,7 +373,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 ul#topnav {
   display: inline;
   float: right;
-  margin: 37px 100px 0 235px;
+  margin: 37px 113px 0 235px;
   padding: 0;
   color: #808285;
   font-size: 10px;

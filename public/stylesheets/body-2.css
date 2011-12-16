@@ -46,9 +46,9 @@
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -182,8 +182,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .opaque {
-  opacity: 0.92 !important;
-  filter: alpha(opacity=92) !important;
+  opacity: 0.75 !important;
+  filter: alpha(opacity=75) !important;
 }
 
 .contact-form, .form {
@@ -257,9 +257,9 @@ i {
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -366,8 +366,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
+  border-left: 1px solid maroon;
+  border-right: 1px solid maroon;
 }
 .banner .center .content {
 @extent .box;
@@ -390,8 +390,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center {
   padding: 15px 0;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
+  border-left: 1px solid maroon;
+  border-right: 1px solid maroon;
 }
 .body .center .content {
 @extent .box;
@@ -481,7 +481,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .link p a {
   font-size: 12px;
-  color: #a71f63;
+  color: #990000;
 }
 .link p a:hover {
   color: #e02877;
@@ -509,7 +509,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .testimonial h2 {
   position: relative;
-  color: #a71f63;
+  color: #990000;
   background: transparent;
   width: 220px;
   margin: 0 auto 15px;
@@ -520,7 +520,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .testimonial h3 {
   position: relative;
-  color: #a71f63;
+  color: #990000;
   background: transparent;
   width: 220px;
   margin: -10px auto 15px;
@@ -643,7 +643,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   width: 586px;
   margin: 15px 0 0 0;
   padding: 0 0 0 4px;
-  color: #a71f63;
+  color: #990000;
   font-size: 13px;
   font-weight: bold;
   text-align: justify;

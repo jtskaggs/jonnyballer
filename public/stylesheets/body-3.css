@@ -46,9 +46,9 @@
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -182,8 +182,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .opaque {
-  opacity: 0.92 !important;
-  filter: alpha(opacity=92) !important;
+  opacity: 0.75 !important;
+  filter: alpha(opacity=75) !important;
 }
 
 .contact-form {
@@ -257,9 +257,9 @@ i {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -366,8 +366,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
+  border-left: 1px solid maroon;
+  border-right: 1px solid maroon;
 }
 .banner .center .content {
 @extent .box;
@@ -389,8 +389,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .listings .center {
   padding: 15px 0;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
+  border-left: 1px solid maroon;
+  border-right: 1px solid maroon;
 }
 .listings .center .content {
 @extent .box;
@@ -445,7 +445,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   bottom: 15px;
   left: 22.5px;
   display: inline;
-  color: #a71f63;
+  color: #990000;
   font-size: 11px;
   font-weight: 200;
   text-decoration: none;
@@ -477,7 +477,7 @@ form.paypal {
 .main .content .section, .main .content .main {
   position: relative;
   padding: 0 0 0 0;
-  border-bottom: 1px dotted #a71f63;
+  border-bottom: 1px dotted #990000;
 }
 .main .content .section:last-child, .main .content .main:last-child {
   padding-bottom: 0;
@@ -504,7 +504,7 @@ form.paypal {
   width: 100%;
   margin: 15px 0 0 0;
   padding: 0 0 0 4px;
-  color: #a71f63;
+  color: #990000;
   font-size: 13px;
   font-weight: bold;
   text-align: justify;

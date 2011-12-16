@@ -46,9 +46,9 @@
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -181,9 +181,9 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   box-sizing: border-box;
 }
 
-.opaque {
-  opacity: 0.92 !important;
-  filter: alpha(opacity=92) !important;
+.opaque, .image-slider .captionContainer {
+  opacity: 0.75 !important;
+  filter: alpha(opacity=75) !important;
 }
 
 .contact-form {
@@ -257,9 +257,9 @@ i {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#a71f63));
+  background: -webkit-gradient(linear, left top, left bottom, from(#e02877), to(#990000));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #e02877, #a71f63);
+  background: -moz-linear-gradient(top, #e02877, #990000);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e02877, endColorstr=#a71f63);
   /* For Internet Explorer 8 */
@@ -366,23 +366,25 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .image-slider .captionContainer {
   position: absolute;
-  width: 900px;
-  top: 200px;
+  width: 100%;
+  height: 54px;
+  bottom: 33px;
   left: 0;
   margin: 0;
-  padding: 5px;
-  background: #a71f63;
+  padding: 0 30px;
+  background: black;
+  overflow: hidden;
 }
 .image-slider .captionContainer h1 {
-  margin: 5px 15px;
+  font-family: "EmbedFont-2";
+  margin: -4px 0 0 0;
   padding: 0;
-  color: #333333;
-  font-size: 30px;
-  font-weight: bolder;
+  color: #d1d3d4;
+  font-size: 67px;
+  font-weight: 100;
   text-align: left;
-  line-height: 1em;
-  word-spacing: 0.1em;
-  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  line-height: 0.85em;
 }
 .image-slider .captionContainer h3 {
   position: relative;
@@ -416,7 +418,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 .nivoSlider {
   position: relative;
   width: 471px;
-  height: 272px;
+  height: 315px;
 }
 
 .nivoSlider img {
@@ -424,7 +426,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   top: 0px;
   left: 0px;
   width: 471px;
-  height: 272px;
+  height: 315px;
 }
 
 .nivoSlider a.nivo-imageLink {
@@ -485,13 +487,13 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .nivo-directionNav a {
   position: absolute;
-  top: 79%;
+  bottom: 31px;
   z-index: 9;
   cursor: pointer;
   display: block;
-  width: 30px;
-  height: 30px;
-  background: url(/images/nivo/arrows.png) no-repeat;
+  width: 35px;
+  height: 54px;
+  background: url(/images/nivo/arrows-light.png) no-repeat;
   text-indent: -9999px;
   border: 0;
 }
@@ -502,7 +504,7 @@ a.nivo-prevNav {
 
 a.nivo-nextNav {
   right: 15px;
-  background-position: -30px 0;
+  background-position: -35px 0;
 }
 
 .nivo-controlNav a {
@@ -518,7 +520,7 @@ a.nivo-nextNav {
 #slider-wrapper {
   position: relative;
   width: 471px;
-  height: 272px;
+  height: 315px;
   margin: 0 auto;
   overflow: hidden;
   border: 1px solid #dddddd;
@@ -528,7 +530,7 @@ a.nivo-nextNav {
 #slider {
   position: relative;
   width: 471px;
-  height: 272px;
+  height: 315px;
 }
 
 #slider img {
@@ -567,7 +569,7 @@ a.nivo-nextNav {
 .nivo-caption {
   position: absolute;
   top: 0;
-  height: 272px;
+  height: 315px;
 }
 
 .nivo-caption {

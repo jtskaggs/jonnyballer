@@ -1,12 +1,11 @@
 - @sitename = "JB"
 
 // MAIN NAVIGATION
-- @link1 = ["Print", "/home"]
-- @link2 = ["Web", "/about"]
-- @link3 = ["Productions", "/services"]
-- @link4 = ["Logos", "/events"]
-- @link5 = ["Contact", "/contact"]
-- @link6 = ["Businesses", "/businesses"]
+- @link1 = ["Print", "/print"]
+- @link2 = ["Web", "/web"]
+- @link3 = ["Productions", "/producions"]
+- @link4 = ["Logos", "/logos"]
+- @link5 = ["R&eacute;sum&eacute;", "/resume"]
 
 // SUB NAVIGATION
 - @link6A = ["Apparel / Accessories", "appacc"]
@@ -226,13 +225,16 @@
     
     .content
       #logo
-        %img{:src => "/images/logo.jpg", :width => "238", :height => "281"}
+        %a{:href => "/home"}
+          #imageholder
       #viewer
         = yield
     .omg-bar
       .copyright
         %p 
           = "&copy; 2011 " + @sitename + ". All Rights Reserved. | "
+          %a{:href => "/resume"} contact
+          = " | "
           %a{:href => "/legal"} legal
           = " | "
           %a{:href => "#"} disregard this link

@@ -44,10 +44,19 @@ body
 	position: relative
 	+float-right
 	width: 428px
-	height: 298px
-	border-bottom: 17px solid #000
-	//background: url(/images/bg-HTML.jpg) repeat
+	height: 318px
+	background: url(/images/bg-HTML.jpg) repeat
 	z-index: 99
+	a
+		#imageholder
+			position: relative
+			width: 428px
+			height: 318px
+			background: url(/images/logo-hover.png) no-repeat
+			&:hover
+				cursor: pointer
+				background: url(/images/logo-hover.png) 0px -315px no-repeat
+	
 	
 #viewer
 	@extend .box
